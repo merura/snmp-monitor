@@ -74,7 +74,7 @@ func (d *Display) Render(metrics []monitor.InterfaceMetrics, host string, interv
 
 	// Build table rows
 	rows := [][]string{
-		{"#", "Interface", "Status", "In Rate", "Out Rate", "In Total", "Out Total"},
+		{"Index", "Interface", "Status", "In Rate", "Out Rate", "In Total", "Out Total"},
 	}
 
 	for _, m := range metrics {
